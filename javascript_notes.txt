@@ -1,0 +1,13 @@
+# Speaking well about code is helpful so that you can:
+# -collaborate well
+# -interpret error messages
+# -understand documentation
+# -do better in tech interviews
+# -speak with confidence
+
+
+Declaration: creating a new variable, "var x"
+
+Assignment: setting the value of a variable, "x = 4"
+
+# Assignment and declaration can happen on the same line: "var x = 4"
