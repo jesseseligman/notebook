@@ -50,3 +50,6 @@ git remote add origin URL
 
 # also shows the commit log of the local and remote branches
 git ll
+
+# fetches new commits from the remote branch and merges them into the local master branch
+~/P/g/w/notebook master ✔ git pul [REMOTE] [BRANCH]
