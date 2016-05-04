@@ -1,0 +1,36 @@
+# initialize a git repository
+#  create a .git folder in the current working directory
+git init
+
+# look at the staging area
+# files can be
+# -tracked
+# -untracked
+# committed (no longer in staging area)
+git status
+
+# adds changes in a file to the staging area
+git add <file>
+
+# take a look at the commits area
+git log
+
+# short form alias for git log
+git ll
+
+# long form alias for git log
+# only command that shows the changes
+git la
+
+# adds my signature globally (for all repositories) in this environment
+git config --global user.name "NAME"
+git config --global user.email "EMAIL"
+
+#commits the changes in the staging area to the commits area
+#cleans out the staging area (prepares it for next commit)
+git commit -m 'MESSAGE'
+
+# creates a special file that acts as the bouncer to the staging area
+# paths to be ignored are line-separated
+# this file is allowed into the party
+touch .gitignore
