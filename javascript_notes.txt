@@ -10,4 +10,13 @@ Declaration: creating a new variable, "var x"
 
 Assignment: setting the value of a variable, "x = 4"
 
-# Assignment and declaration can happen on the same line: "var x = 4"
+# Assignment and declaration can happen on the same line, but don't need to: "var x = 4"
+
+
+# WORDS
+
+Identifier: variable name, must start with letter, _, or, $
+
+Keywords: reserved words that can't be used as identifiers, ex. function/if
+
+Operator: Like functions but with special syntax, ex. +, -, &&, typeof
