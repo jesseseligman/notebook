@@ -34,3 +34,19 @@ git commit -m 'MESSAGE'
 # paths to be ignored are line-separated
 # this file is allowed into the party
 touch .gitignore
+
+# push the current branch (master) to a branch (also master) on the origin remote
+# the first master refers to the local branch
+# the second master refers to the remote branch
+# the -u flag sets the upstream (connects the two branches)
+~/P/g/w/notebook master ✔ git push -u origin master
+
+# add a remote called origin (key) that refers to a URL (value)
+# allows you to push (and pull) commits to and from the remote
+git remote add origin URL
+
+# once the local master branch is connected to a remote branch, you don't need to specify the remote or branch names
+~/P/g/w/notebook master ✔ git push
+
+# also shows the commit log of the local and remote branches
+git ll
