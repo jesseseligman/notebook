@@ -20,3 +20,13 @@ Identifier: variable name, must start with letter, _, or, $
 Keywords: reserved words that can't be used as identifiers, ex. function/if
 
 Operator: Like functions but with special syntax, ex. +, -, &&, typeof
+
+
+
+Literals: literally represent what they are as opposed to variables
+
+Expression: something that results in a value, "1 + 1"
+
+Statement: a block of code that does something, "x = 7"
+
+Evaluation: The process of determining the value of an expression, reducing expressions to their values
