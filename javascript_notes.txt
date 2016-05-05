@@ -24,8 +24,9 @@ Operator: Like functions but with special syntax, ex. +, -, &&, typeof
 
 
 Literals: literally represent what they are as opposed to variables
+ex. {name: amy, hair: brown, age: 1242} is an object literal
 
-Expression: something that results in a value, "1 + 1"
+Expression: something that results in a value, ex. "1 + 1" or "var x"
 
 Statement: a block of code that does something, "x = 7"
 
